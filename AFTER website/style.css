@@ -1,0 +1,105 @@
+*{
+    font-family: sans-serif;
+}
+
+body::before {
+    content: "";
+    background-image: url('img/wallpaperflare.com_wallpaper\ \(1\).jpg'); 
+    background-repeat: no-repeat;                                    
+    background-size: cover;                                                                                
+    background-attachment: fixed;
+    opacity: 0.85; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+    
+    
+    
+
+.header{
+    display: flex;
+    /* background-color: rgb(211, 130, 24,0.5); */
+    border-radius: 20px;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    color: rgb(255, 252, 252);
+    font-family: cursive;
+    
+}
+
+.vitb{
+    height: 100px;
+    width: 130px;
+    margin:20px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    gap: 20px;
+}
+
+.about{
+    background-color: rgba(42, 38, 33, 0.608);
+    border-radius: 20px;
+    padding: 40px;
+    width: 500px;
+    color: white;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.addresses{
+    background-color: rgba(42, 38, 33, 0.60);
+    border-radius: 20px;
+    padding: 40px;
+    width: 500px;
+    color: rgb(255, 251, 251);
+}
+
+.gradio{
+    background-color: rgba(32, 31, 29, 0.608);
+    border-radius: 20px;
+    padding: 40px;
+    width: 500px;
+    color:white;
+
+}
+
+.click{
+    padding: 10px;
+    color: white;
+    background-color: rgb(12, 11, 11);
+    font-size: 10px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    
+}
+.click:hover{
+    cursor: pointer;
+    color: rgb(31, 122, 200);
+    background-color: white;
+}
+.ABOUT{
+    background-color: rgba(42, 40, 39, 0.299);
+    border-radius: 20px;
+    padding: 40px;
+    width: 500px;
+    color: white;
+    justify-content: center;
+}
+
